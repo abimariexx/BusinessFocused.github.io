@@ -5,8 +5,81 @@
     <link rel="shortcut icon" href="logo.png">
     <title>Business Focused</title>
     <meta charset="UTF-8">
+      <title>Carrusel de Imágenes</title>
+    <style>
+        /* Estilos para el carrusel */
+        .carousel {
+            display: flex; /* Hacer que los elementos se muestren en línea */
+            overflow: hidden; /* Ocultar elementos fuera del contenedor */
+            width: 300px; /* Ancho del carrusel */
+            margin: 0 auto; /* Centrar el carrusel en la página */
+        }
+
+        /* Estilos para las imágenes */
+        .carousel img {
+            width: 100%; /* Ancho del 100% para que las imágenes se ajusten al contenedor */
+            transition: transform 0.5s ease; /* Transición suave de transformación */
+        }
+       /* Estilos para los botones de navegación del carrusel */
+        .carousel-button {
+            cursor: pointer;
+            background-color: #333;
+            color: white;
+            padding: 8px 16px;
+            border: none;
+            outline: none;
+        }
+
+        /* Estilos para el botón izquierdo */
+        .prev {
+            float: left;
+        }
+
+        /* Estilos para el botón derecho */
+        .next {
+            float: right;
+        }
+    </style>
 </head>
 <body>
+    <!-- Carrusel de imágenes -->
+<div class="carousel">
+    <img src="imagen1.jpg" alt="Imagen 1">
+    <img src="imagen2.jpg" alt="Imagen 2">
+    <img src="imagen3.jpg" alt="Imagen 3">
+</div>
+
+<!-- Botones de navegación del carrusel -->
+<button class="carousel-button prev" onclick="plusSlides(-1)">Anterior</button>
+<button class="carousel-button next" onclick="plusSlides(1)">Siguiente</button>
+
+<script>
+    let slideIndex = 1;
+
+    function plusSlides(n) {
+        showSlides(slideIndex += n);
+    }
+
+    function showSlides(n) {
+        let slides = document.querySelectorAll(".carousel img");
+
+        if (n > slides.length) {
+            slideIndex = 1;
+        }
+        if (n < 1) {
+            slideIndex = slides.length;
+        }
+
+        for (let i = 0; i < slides.length; i++) {
+            slides[i].style.transform = "translateX(100%)"; /* Ocultar todas las imágenes */
+        }
+
+        slides[slideIndex - 1].style.transform = "translateX(0%)"; /* Mostrar la imagen actual */
+    }
+
+    showSlides(slideIndex);
+</script>
+
     <header>
         <img src="logo.png" with= 300>
         <nav>
