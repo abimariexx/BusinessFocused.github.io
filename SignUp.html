@@ -1,9 +1,28 @@
 <!DOCTYPE html>
 <html>
 <head>
-
+    <title>Registro</title>
+    <link rel="stylesheet" type="text/css" href="SignUp.css">
 </head>
 <body>
-
+    <div class="form-container">
+        <h1>Registro</h1>
+        <form action="procesar_registro.php" method="post">
+            <div class="input-container">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+            </div>
+            <div class="input-container">
+                <label for="correo">Correo Electrónico:</label>
+                <input type="email" id="correo" name="correo" required>
+            </div>
+            <div class="input-container">
+                <label for="contrasena">Contraseña:</label>
+                <input type="password" id="contrasena" name="contrasena" required>
+            </div>
+            <button type="submit">Registrarse</button>
+        </form>
+        <p>¿Ya tienes una cuenta? <a href="LogIn.html">Inicia sesión</a></p>
+    </div>
 </body>
 </html>
