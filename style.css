@@ -9,7 +9,7 @@
     font-family: sans-serif;
     text-transform: capitalize;
   }
-  9
+
   .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -238,3 +238,7 @@ transition:all 400ms ease;
 
 }
 
+.carrusel div div div img{
+  height: 10cm;
+  width: 100%;
+}
