@@ -1,24 +1,20 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Iniciar Sesión</title>
+    <title>Login</title>
     <link rel="stylesheet" type="text/css" href="login.css">
 </head>
-<body>
-    <div class="form-container">
-        <h1>Iniciar Sesión</h1>
-        <form action="procesar_login.php" method="post">
-            <div class="input-container">
-                <label for="usuario">Usuario:</label>
-                <input type="text" id="usuario" name="usuario" required>
-            </div>
-            <div class="input-container">
-                <label for="contrasena">Contraseña:</label>
-                <input type="password" id="contrasena" name="contrasena" required>
-            </div>
-            <a href="MainPage.html">Iniciar sesion</a>
+<body style="background-image: url('Diseño\ sin\ título\ \(1\).png'); background-size: cover;">
+    <div class="container">
+        <form action="MainPage.html">
+            <h2>Login</h2>
+            <label for="usuario">Username:</label>
+            <input type="text" id="usuario" name="usuario" required><br>
+            <label for="contrasena">Password:</label>
+            <input type="password" id="contrasena" name="contrasena" required><br>
+            <button type="submit">Log In</button>
         </form>
-        <p>¿No tienes una cuenta? <a href="SignUp.html">Regístrate</a></p>
+        <p>Don't have an account? <a href="SignUp.html">Sign up here</a></p>
     </div>
 </body>
 </html>
