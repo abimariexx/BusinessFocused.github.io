@@ -1,0 +1,9 @@
+/* Estilo para el navbar de Bootstrap */
+.navbar {
+    background-color: #1f2833; /* Color de fondo azul oscuro */
+}
+
+/* Estilo para el texto del navbar */
+.navbar-nav .nav-link {
+    color: white; /* Color de texto blanco */
+}
