@@ -236,3 +236,18 @@ transition:all 400ms ease;
 
   color:#fff;
 }
+
+
+/* Estilo para el navbar */
+nav {
+    background-color: #1f2833; /* Color de fondo azul oscuro */
+    color: white; /* Color de texto blanco */
+    padding: 10px; /* Espaciado interior para el contenido del navbar */
+}
+
+/* Estilo para los enlaces del navbar */
+nav a {
+    color: white; /* Color de texto blanco para los enlaces */
+    text-decoration: none; /* Quita la subrayado de los enlaces */
+    margin: 0 10px; /* Márgenes entre los enlaces */
+}
