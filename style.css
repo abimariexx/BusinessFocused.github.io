@@ -338,3 +338,7 @@ transition:all 400ms ease;
   flex: 1; /* Take up 1/2 of the available space */
   padding: 20px; /* Add padding for spacing */
 }
+
+h2 {
+  text-align: center;
+}
