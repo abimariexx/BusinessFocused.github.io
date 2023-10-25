@@ -256,6 +256,8 @@ transition:all 400ms ease;
   padding: 20px; /* Add padding for spacing */
 }
 
+
+
 /* CSS for the container */
 .container {
     display: flex; /* Use flexbox layout */
@@ -275,6 +277,9 @@ transition:all 400ms ease;
     text-align: right; /* Align the image to the right */
 }
 
+
+
+
 /* CSS for the container */
 .container {
   display: flex; /* Use flexbox layout */
@@ -292,6 +297,8 @@ transition:all 400ms ease;
   flex: 1; /* Take up 1/2 of the available space */
   padding: 20px; /* Add padding for spacing */
 }
+
+
 
 /* CSS for the container */
 .container {
@@ -311,6 +318,8 @@ transition:all 400ms ease;
   padding: 20px; /* Add padding for spacing */
   text-align: right; /* Align the image to the right */
 }
+
+
 
 /* CSS for the container */
 .container {
