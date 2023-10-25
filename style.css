@@ -240,6 +240,24 @@ transition:all 400ms ease;
 
 /* CSS for the container */
 .container {
+  display: flex; /* Use flexbox layout */
+  align-items: center; /* Vertically center items */
+}
+
+/* CSS for the image */
+.image {
+  flex: 1; /* Take up 1/2 of the available space */
+  padding: 20px; /* Add padding for spacing */
+}
+
+/* CSS for the text */
+.text {
+  flex: 1; /* Take up 1/2 of the available space */
+  padding: 20px; /* Add padding for spacing */
+}
+
+/* CSS for the container */
+.container {
     display: flex; /* Use flexbox layout */
     align-items: center; /* Vertically center items */
 }
