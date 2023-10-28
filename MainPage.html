@@ -27,6 +27,22 @@
               </button>
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <div class="menu-icon" onclick="toggleMenu()">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </div>
+                <ul class="menu">
+                  <li><a href="AboutUs.html">About Us</a></li>
+                  <li><a href="Blog.html">Blog</a></li>
+                  <li><a href="Services.html">Services</a></li>
+                </ul>
+                <script>
+                    function toggleMenu() {
+                        var menu = document.querySelector('.menu');
+                        menu.classList.toggle('open');
+                    }
+                </script>
                   <li class="nav-item">
                     <li><a class="nav-link active" aria-current="page" href="AboutUs.html">About us</a></li>
                     <li><a class="nav-link active" aria-current="page" href="Blog.html">Blog</a></li>
@@ -51,12 +67,9 @@
         <div class="bar"></div>
     </div>
     <ul class="menu">
-      <li><a href="clothes.html">Clothes</a></li>
-      <li><a href="Interiors.html">Interiors</a></li>
-      <li><a href="Skincare.html">Skincare</a></li>
-      <li><a href="Reading.html">Reading</a></li>
-      <li><a href="Electronics.html">Electronics</a></li>
-      <li><a href="Accesories.html">Accesories</a></li>
+      <li><a href="AboutUs.html">About Us</a></li>
+      <li><a href="Blog.html">Blog</a></li>
+      <li><a href="Services.html">Services</a></li>
     </ul>
     <script>
         function toggleMenu() {
