@@ -346,9 +346,6 @@ h2 {
 
 
 
-
-
-
 .menu-icon {
   cursor: pointer;
   display: block;
@@ -367,13 +364,12 @@ h2 {
   list-style-type: none;
   padding: 0;
   display: none;
+  max-width: 150px; /* Establece un ancho máximo */
 }
 
 .menu.open {
   display: block;
   position: absolute;
-  top: 40px; /* Ajusta la posición vertical según tus necesidades */
-  left: 0;
 }
 
 .menu li {
