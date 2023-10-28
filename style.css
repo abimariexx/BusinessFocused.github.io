@@ -345,30 +345,3 @@ h2 {
 
 
 
-
-.menu-icon {
-  cursor: pointer;
-  display: block;
-  width: 30px;
-  height: 30px;
-}
-
-
-
-.menu {
-  list-style-type: none;
-  padding: 0;
-  display: none;
-}
-
-.menu.open {
-  display: block;
-  position: absolute;
-  top: 40px; /* Ajusta la posición vertical según tus necesidades */
-  left: 0;
-}
-
-.menu li {
-  padding: 10px;
-}
-
