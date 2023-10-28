@@ -344,4 +344,26 @@ h2 {
 }
 
 
-
+.menu-icon {
+  cursor: pointer;
+  display: block;
+  width: 30px;
+  height: 30px;
+  }
+  
+  .bar {
+  width: 30px;
+  height: 4px;
+  background-color: #333;
+  margin: 6px 0;
+  }
+  
+  .menu {
+  list-style-type: none;
+  padding: 0;
+  display: none;
+  }
+  
+  .menu.open {
+  display: block;
+  }
