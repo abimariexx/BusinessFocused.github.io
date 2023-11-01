@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tu Carrito de Compras</title>
+    <link rel="stylesheet" href="carrito.css">
+</head>
+<body>
+    <h1>Categoría de Productos</h1>
+
+    <div class="products-container">
+        <div class="product">
+            <h3>Producto 1 (Skincare)</h3>
+            <p>Precio: $10.00</p>
+            <button onclick="agregarAlCarrito('Producto 1', 10.00)">Agregar al Carrito</button>
+        </div>
+
+        <div class="product">
+            <h3>Producto 2 (Skincare)</h3>
+            <p>Precio: $15.00</p>
+            <button onclick="agregarAlCarrito('Producto 2', 15.00)">Agregar al Carrito</button>
+        </div>
+
+        <div class="product">
+            <h3>Producto 3 (Reading)</h3>
+            <p>Precio: $20.00</p>
+            <button onclick="agregarAlCarrito('Producto 3', 20.00)">Agregar al Carrito</button>
+        </div>
+
+        <div class="product">
+            <h3>Producto 4 (Reading)</h3>
+            <p>Precio: $12.00</p>
+            <button onclick="agregarAlCarrito('Producto 4', 12.00)">Agregar al Carrito</button>
+        </div>
+
+        <div class="product">
+            <h3>Producto 5 (Clothes)</h3>
+            <p>Precio: $25.00</p>
+            <button onclick="agregarAlCarrito('Producto 5', 25.00)">Agregar al Carrito</button>
+        </div>
+
+        <div class="product">
+            <h3>Producto 6 (Clothes)</h3>
+            <p>Precio: $18.00</p>
+            <button onclick="agregarAlCarrito('Producto 6', 18.00)">Agregar al Carrito</button>
+        </div>
+
+        <div class="product">
+            <h3>Producto 7 (Skincare)</h3>
+            <p>Precio: $10.50</p>
+            <button onclick="agregarAlCarrito('Producto 7', 10.50)">Agregar al Carrito</button>
+        </div>
+    </div>
+
+    <h2>Carrito de Compras</h2>
+
+    <div class="cart-container">
+        <div id="cart-items">
+            <!-- Los productos seleccionados se mostrarán aquí -->
+        </div>
+        <p>Total a pagar: $<span id="total-amount">0.00</span></p>
+        <button onclick="vaciarCarrito()">Vaciar Carrito</button>
+    </div>
+
+    <script src="cart.js"></script>
+</body>
+</html>
