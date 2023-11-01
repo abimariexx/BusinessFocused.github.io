@@ -5,33 +5,108 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tu Carrito de Compras</title>
     <link rel="stylesheet" href="carrito.css">
+    <meta name="description" content="Página de Business Focused">
+    <meta name="keywords" content="Negocio propio, Emprendimiento, Panamá, Ventas, Productos, Vender, Comprar">
+    
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+    <title> Business Focused</title>
 </head>
 <body>
+<!-- Barra de navegación -->
+<header>
+    <nav>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="logo.png" width="80">
+          </a>
+          <a class="navbar-brand" href="#">Business Focused</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+                <li><a class="nav-link active" aria-current="page" href="SignUp.html">Sign Up</a></li>
+                <li><a class="nav-link active" aria-current="page" href="LogIn.html">Log in</a></li>
+              </li>
+
+    <!-- Menu desplegable -->
+    <div class="menu-icon"
+
+    onclick="toggleMenu()">
+    <div class="bar"></div>
+    <div class="bar"></div>
+    <div class="bar"></div>
+    
+    </div>
+    
+    <ul class="menu">
+
+     <li><a href="AboutUs.html">About Us</a></li>
+     <li><a href="Blog.html">Blog</a></li>
+     <li><a href="Services.html">Services</a></li>
+    
+    </ul>
+    
+    <script>
+     
+    function toggleMenu() {
+
+    var menu = document.querySelector('.menu'); menu.classList.toggle('open');
+
+    }
+    </script>
+<!-- Fin de menu desplegable -->
+
+
+       <header>
+         <ul>
+           <nav>
+               <title>Business Focused</title>
+           <li><a href="clothes.html">Clothes</a></li>
+           <li><a href="Interiors.html">Interiors</a></li>
+           <li><a href="Skincare.html">Skincare</a></li>
+           <li><a href="Reading.html">Reading</a></li>
+           <li><a href="Electronics.html">Electronics</a></li>
+           <li><a href="Accesories.html">Accesories</a></li>
+       </ul>
+   </nav>
+</header>
+
+
+
     <h1>Categoría de Productos</h1>
 
     <div class="products-container">
         <div class="product">
             <h3>Producto 1 (Skincare)</h3>
-            <p>Precio: $10.00</p>
-            <button onclick="agregarAlCarrito('Producto 1', 10.00)">Agregar al Carrito</button>
+            <p>Price: $10.00</p>
+            <button onclick="agregarAlCarrito('Producto 1', 10.00)">Add to Cart</button>
         </div>
 
         <div class="product">
             <h3>Producto 2 (Skincare)</h3>
-            <p>Precio: $15.00</p>
-            <button onclick="agregarAlCarrito('Producto 2', 15.00)">Agregar al Carrito</button>
+            <p>Price $15.00</p>
+            <button onclick="agregarAlCarrito('Producto 2', 15.00)">Add to Cart</button>
         </div>
 
         <div class="product">
             <h3>Producto 3 (Reading)</h3>
-            <p>Precio: $20.00</p>
-            <button onclick="agregarAlCarrito('Producto 3', 20.00)">Agregar al Carrito</button>
+            <p>Price: $20.00</p>
+            <button onclick="agregarAlCarrito('Producto 3', 20.00)">Add to Cart</button>
         </div>
 
         <div class="product">
             <h3>Producto 4 (Reading)</h3>
-            <p>Precio: $12.00</p>
-            <button onclick="agregarAlCarrito('Producto 4', 12.00)">Agregar al Carrito</button>
+            <p>Price: $12.00</p>
+            <button onclick="agregarAlCarrito('Producto 4', 12.00)">Add to Cart</button>
         </div>
 
         <div class="product">
