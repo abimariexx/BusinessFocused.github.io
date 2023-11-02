@@ -264,3 +264,9 @@ body {
 }
 
 /* fin del css del background */
+
+body {
+  font-family: 'Avenir', sans-serif;
+  color: white;
+  /* Otros estilos de fuente como tamaño y espaciado se pueden agregar aquí */
+}
