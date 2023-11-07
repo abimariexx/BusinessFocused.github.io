@@ -48,3 +48,8 @@ button {
     cursor: pointer;
 }
 
+section {
+    font-family: 'Avenir', sans-serif;
+    color:white;
+  }
+  
