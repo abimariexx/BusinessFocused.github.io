@@ -1,5 +1,6 @@
 body {
     font-family: Arial, sans-serif;
+    color:white;
 }
 
 h1, h2 {
@@ -20,7 +21,7 @@ h1, h2 {
 }
 
 button {
-    background-color: #3498db;
+    background-color: #223dd4;
     color: #fff;
     border: none;
     padding: 5px 10px;
@@ -40,7 +41,7 @@ button {
 }
 
 button {
-    background-color: #e74c3c;
+    background-color: #223dd4;
     color: #fff;
     border: none;
     padding: 5px 10px;
