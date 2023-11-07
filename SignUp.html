@@ -11,7 +11,7 @@
         <form action="MainPage.html">
             <img src="logo_comp.png" alt="" width="50x">
             <h2>Sign Up</h2>
-            <a class="navbar-brand" href="MainPage.html">Business Focused</a>
+            <a class="navbar-brand" href="MainPage.html"></a>
 
             <label for="nombre">Name:</label>
             <input type="text" id="nombre" name="nombre" required><br>
@@ -19,6 +19,20 @@
             <input type="email" id="email" name="email" required><br>
             <label for="contrasena">Password:</label>
             <input type="password" id="contrasena" name="contrasena" required><br>
+            <label>
+                Show Password:
+                <input type="checkbox" onclick="showPwd()">
+            </label>
+            <script>
+                const showPwd = () => {
+                    let input = document.querySelector("#field")
+                    if (input.type === "password") {
+                        input.type = "text"
+                    } else {
+                        input.type = "password"
+                    }
+                }
+            </script>
             <button type="submit">Register</button>
         </form>
         <p>Already have an account? <a href="LogIn.html">Log in here</a></p>

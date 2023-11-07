@@ -17,6 +17,20 @@
             <input type="text" id="usuario" name="usuario" required><br>
             <label for="contrasena">Password:</label>
             <input type="password" id="contrasena" name="contrasena" required><br>
+            <label>
+                Show Password:
+                <input type="checkbox" onclick="showPwd()">
+            </label>
+            <script>
+                const showPwd = () => {
+                    let input = document.querySelector("#field")
+                    if (input.type === "password") {
+                        input.type = "text"
+                    } else {
+                        input.type = "password"
+                    }
+                }
+            </script>
             <button type="submit">Log In</button>
         </form>
         <p>Don't have an account? <a href="SignUp.html">Sign up here</a></p>
