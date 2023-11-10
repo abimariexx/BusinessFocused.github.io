@@ -1,0 +1,26 @@
+.testimonial {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.left-img {
+    max-width: 200px;
+    margin-right: 20px;
+}
+
+.right-img {
+    max-width: 200px;
+    margin-left: 20px;
+}
+
+.text {
+    width: 70%;
+}
+
+.left-text {
+    order: 2;
+}
+
+.right-text {
+    order: 1;
+}
