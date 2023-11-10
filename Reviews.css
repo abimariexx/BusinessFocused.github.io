@@ -1,26 +1,134 @@
-.testimonial {
-    display: flex;
-    margin-bottom: 20px;
-}
+/* info de las reviews */
 
-.left-img {
-    max-width: 200px;
-    margin-right: 20px;
-}
-
-.right-img {
-    max-width: 200px;
-    margin-left: 20px;
-}
-
-.text {
-    width: 70%;
-}
-
-.left-text {
-    order: 2;
-}
-
-.right-text {
-    order: 1;
-}
+/* CSS for the container */
+.container {
+    display: flex; /* Use flexbox layout */
+    align-items: center; /* Vertically center items */
+  }
+  
+  /* CSS for the image */
+  .image {
+    flex: 1; /* Take up 1/2 of the available space */
+    padding: 20px; /* Add padding for spacing */
+  }
+  
+  /* CSS for the text */
+  .text {
+    flex: 1; /* Take up 1/2 of the available space */
+    padding: 20px; /* Add padding for spacing */
+  }
+  
+  
+  
+  /* CSS for the container */
+  .container {
+      display: flex; /* Use flexbox layout */
+      align-items: center; /* Vertically center items */
+  }
+  
+  /* CSS for the text */
+  .text {
+      flex: 1; /* Take up 1/2 of the available space */
+      padding: 20px; /* Add padding for spacing */
+  }
+  
+  /* CSS for the image */
+  .image {
+      flex: 1; /* Take up 1/2 of the available space */
+      padding: 20px; /* Add padding for spacing */
+      text-align: right; /* Align the image to the right */
+  }
+  
+  
+  
+  
+  /* CSS for the container */
+  .container {
+    display: flex; /* Use flexbox layout */
+    align-items: center; /* Vertically center items */
+  }
+  
+  /* CSS for the image */
+  .image {
+    flex: 1; /* Take up 1/2 of the available space */
+    padding: 20px; /* Add padding for spacing */
+  }
+  
+  /* CSS for the text */
+  .text {
+    flex: 1; /* Take up 1/2 of the available space */
+    padding: 20px; /* Add padding for spacing */
+  }
+  
+  
+  
+  /* CSS for the container */
+  .container {
+    display: flex; /* Use flexbox layout */
+    align-items: center; /* Vertically center items */
+  }
+  
+  /* CSS for the text */
+  .text {
+    flex: 1; /* Take up 1/2 of the available space */
+    padding: 20px; /* Add padding for spacing */
+  }
+  
+  /* CSS for the image */
+  .image {
+    flex: 1; /* Take up 1/2 of the available space */
+    padding: 20px; /* Add padding for spacing */
+    text-align: right; /* Align the image to the right */
+  }
+  
+  
+  
+  /* CSS for the container */
+  .container {
+    display: flex; /* Use flexbox layout */
+    align-items: center; /* Vertically center items */
+  }
+  
+  /* CSS for the image */
+  .image {
+    flex: 1; /* Take up 1/2 of the available space */
+    padding: 20px; /* Add padding for spacing */
+  }
+  
+  /* CSS for the text */
+  .text {
+    flex: 1; /* Take up 1/2 of the available space */
+    padding: 20px; /* Add padding for spacing */
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  /* css del background */
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('jpeg.jpg'); /* Reemplaza 'ruta-de-tu-imagen.jpg' con la ruta de tu imagen de fondo */
+    background-size: cover; /* Para cubrir todo el área visible */
+    background-repeat: no-repeat; /* Para evitar repeticiones de la imagen de fondo */
+    background-attachment: fixed; /* Para que la imagen de fondo no se desplace al hacer scroll */
+  }
+  
+  /* fin del css del background */
+  
+  body {
+    font-family: 'Avenir', sans-serif;
+    color: white;
+    /* Otros estilos de fuente como tamaño y espaciado se pueden agregar aquí */
+  }
+  
+  section {
+    font-family: 'Avenir', sans-serif;
+    color:white;
+  }
+  
+  .buttons {
+    
+  }
+  
