@@ -1,0 +1,27 @@
+  /* css del background */
+  body {
+    margin: 0;
+    padding: 0;
+    background-image: url('jpeg.jpg'); /* Reemplaza 'ruta-de-tu-imagen.jpg' con la ruta de tu imagen de fondo */
+    background-size: cover; /* Para cubrir todo el área visible */
+    background-repeat: no-repeat; /* Para evitar repeticiones de la imagen de fondo */
+    background-attachment: fixed; /* Para que la imagen de fondo no se desplace al hacer scroll */
+  }
+  
+  /* fin del css del background */
+  
+  body {
+    font-family: 'Avenir', sans-serif;
+    color: white;
+    /* Otros estilos de fuente como tamaño y espaciado se pueden agregar aquí */
+  }
+  
+  section {
+    font-family: 'Avenir', sans-serif;
+    color:white;
+  }
+  
+  .buttons {
+    
+  }
+  
