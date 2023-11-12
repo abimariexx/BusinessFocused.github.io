@@ -288,7 +288,7 @@ header {
 }
 
 /* Estilo para el navbar */
-.navbar {
+.nav {
   background-color: #4682B4;
   font-family: 'Avenir', sans-serif;
   color: white; /* Text color within the navbar */
