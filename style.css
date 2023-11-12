@@ -279,3 +279,21 @@ section {
 .buttons {
   
 }
+
+/* Estilo para el header */
+header {
+  background-color: #4682B4;
+  color: white; /* Text color within the header */
+}
+
+/* Estilo para el navbar */
+.navbar {
+  background-color: #4682B4;
+  color: white; /* Text color within the navbar */
+}
+
+/* Estilo para el menú desplegable */
+.menu {
+  background-color: #4682B4;
+  color: white; /* Text color within the dropdown menu */
+}
