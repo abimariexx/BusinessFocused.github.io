@@ -34,6 +34,8 @@
   .card{
     width: 50%;
   
+    margin: 20%;
+  
   border-radius: 6px;
   
   overflow: hidden;
@@ -45,8 +47,8 @@
   cursor: default;
   
   transition: all 400ms ease;
-  display: grid;
-  grid-template-columns: auto auto auto;
+  display: flex;
+  justify-content: space-evenly;
   
   }
   
