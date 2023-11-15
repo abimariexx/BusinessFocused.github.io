@@ -279,3 +279,67 @@ section {
 .buttons {
   
 }
+
+/* css de los cards de las categorias */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: #f0f0f0;
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Añadido para centrar horizontalmente en la página */
+  min-height: 100vh;
+}
+
+.card-container {
+  display: flex;
+  overflow-x: auto;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.card {
+  flex: 0 0 auto;
+  width: 150px;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  margin: 10px;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+.card-content {
+  padding: 12px;
+}
+
+.card-content h3 {
+  font-size: 18px;
+  margin-bottom: 6px;
+}
+
+.card-content p {
+  color: #666;
+  font-size: 12px;
+  line-height: 1.2;
+}
+
+.card-content .btn {
+  display: inline-block;
+  padding: 6px 12px;
+  background-color: #333;
+  text-decoration: none;
+  border-radius: 4px;
+  margin-top: 8px;
+  font-size: 12px;
+  color: #fff;
+}
