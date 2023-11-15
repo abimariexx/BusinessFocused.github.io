@@ -1,62 +1,76 @@
-/* footer */
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    list-style: none;
-  }
-  
-  body {
-    font-family: sans-serif;
-    text-transform: capitalize;
-  }
+/* Reset de estilos */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
 
-  .container {
-    max-width: 1200px;
-    margin: 0 auto;
-  }
-  
-  .footer {
-    background-color: #242628;
-    padding: 80px 0;
-  }
-  
-  .footer-row {
-    display: flex;
-    flex-wrap: wrap;
-  }
-  
-  .footer-links {
-    width: 25%;
-    padding: 0 15px;
-  }
+/* Estilo básico del cuerpo */
+body {
+  font-family: sans-serif;
+  text-transform: capitalize;
+  background-image: url('jpeg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
 
-  .footer-links h4{
-    font-size: 20px;
-    color: #FFFFFF;
-    margin-bottom: 25px;
-    font-weight: 500;
-    border-bottom: 2px solid #00C3FF;
-    padding-bottom: 10px;
-    display: inline-block;
-  }
+/* Contenedor principal */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
 
-  .footer-links ul li a {
-    font-size: 18px;
-    text-decoration: none;
-    color: #BBBBBB;
-    display: block;
-    margin-bottom: 15px;
-    transition: all .3s ease;
-  }
+/* Estilo del footer */
+.footer {
+  background-color: #242628;
+  padding: 80px 0;
+  color: #FFFFFF;
+}
 
-  .footer-links ul li a:hover {
-    color: #FFFFFF;
-    padding-left: 6px;
-  }
+/* Estilo de las filas del footer */
+.footer-row {
+  display: flex;
+  flex-wrap: wrap;
+}
 
+/* Estilo de los enlaces del footer */
+.footer-links {
+  width: 25%;
+  padding: 0 15px;
+}
+
+.footer-links h4 {
+  font-size: 20px;
+  margin-bottom: 25px;
+  font-weight: 500;
+  border-bottom: 2px solid #00C3FF;
+  padding-bottom: 10px;
+  display: inline-block;
+}
+
+.footer-links ul li a {
+  font-size: 18px;
+  color: #BBBBBB;
+  display: block;
+  margin-bottom: 15px;
+  transition: all .3s ease;
+}
+
+.footer-links ul li a:hover {
+  color: #FFFFFF;
+  padding-left: 6px;
+}
+
+/* Estilo de los íconos de redes sociales */
 .social-link a {
-
   display: inline-block;
   min-height: 40px;
   width: 40px;
@@ -67,235 +81,70 @@
   border-radius: 50%;
   color: #FFFFFF;
   transition: all .5s ease;
-
 }
 
-.social-link a :hover {
+.social-link a:hover {
   background-color: #00C3FF;
 }
 
-@media(max-width:991px) {
-  .footer-row {
-    text-align: center;
-  }
-
-  .footer-links {
-    width: 100%;
-    margin-bottom: 30px;
-    
-  }
-}
-
-/* Estilo básico del menú de navegación */
+/* Barra de navegación */
 header {
-    background-color: #f5f5f5; /* Color de fondo */
-    padding: 10px 0;
+  background-color: #f5f5f5;
+  padding: 10px 0;
 }
 
 nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-}
-
-nav li {
-    display: inline-block;
-    margin: 0 20px;
-}
-
-nav a {
-    text-decoration: none;
-    color: #333; /* Color del texto del enlace */
-    font-size: 16px;
-    font-weight: bold;
-    transition: color 0.3s ease; /* Transición suave del color del texto */
-}
-
-nav a:hover {
-    color: #ffcc00; /* Color del texto del enlace al pasar el ratón por encima */
-}
-
-
-
-/* informacion de main page */
-
-/* CSS for the container */
-.container {
-  display: flex; /* Use flexbox layout */
-  align-items: center; /* Vertically center items */
-}
-
-/* CSS for the image */
-.image {
-  flex: 1; /* Take up 1/2 of the available space */
-  padding: 20px; /* Add padding for spacing */
-}
-
-/* CSS for the text */
-.text {
-  flex: 1; /* Take up 1/2 of the available space */
-  padding: 20px; /* Add padding for spacing */
-}
-
-
-
-/* CSS for the container */
-.container {
-    display: flex; /* Use flexbox layout */
-    align-items: center; /* Vertically center items */
-}
-
-/* CSS for the text */
-.text {
-    flex: 1; /* Take up 1/2 of the available space */
-    padding: 20px; /* Add padding for spacing */
-}
-
-/* CSS for the image */
-.image {
-    flex: 1; /* Take up 1/2 of the available space */
-    padding: 20px; /* Add padding for spacing */
-    text-align: right; /* Align the image to the right */
-}
-
-
-
-
-/* CSS for the container */
-.container {
-  display: flex; /* Use flexbox layout */
-  align-items: center; /* Vertically center items */
-}
-
-/* CSS for the image */
-.image {
-  flex: 1; /* Take up 1/2 of the available space */
-  padding: 20px; /* Add padding for spacing */
-}
-
-/* CSS for the text */
-.text {
-  flex: 1; /* Take up 1/2 of the available space */
-  padding: 20px; /* Add padding for spacing */
-}
-
-
-
-/* CSS for the container */
-.container {
-  display: flex; /* Use flexbox layout */
-  align-items: center; /* Vertically center items */
-}
-
-/* CSS for the text */
-.text {
-  flex: 1; /* Take up 1/2 of the available space */
-  padding: 20px; /* Add padding for spacing */
-}
-
-/* CSS for the image */
-.image {
-  flex: 1; /* Take up 1/2 of the available space */
-  padding: 20px; /* Add padding for spacing */
-  text-align: right; /* Align the image to the right */
-}
-
-
-/* CSS for the container */
-.container {
-  display: flex; /* Use flexbox layout */
-  align-items: center; /* Vertically center items */
-}
-
-/* CSS for the image */
-.image {
-  flex: 1; /* Take up 1/2 of the available space */
-  padding: 20px; /* Add padding for spacing */
-}
-
-/* CSS for the text */
-.text {
-  flex: 1; /* Take up 1/2 of the available space */
-  padding: 20px; /* Add padding for spacing */
-}
-
-h2 {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
   text-align: center;
 }
 
-/* barra desplegable */
+nav li {
+  display: inline-block;
+  margin: 0 20px;
+}
 
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-size: 16px;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #ffcc00;
+}
+
+/* Menú desplegable */
 .menu-icon {
   cursor: pointer;
   display: block;
   width: 30px;
   height: 30px;
-  }
-  
-  .bar {
+}
+
+.bar {
   width: 30px;
   height: 4px;
   background-color: #333;
   margin: 6px 0;
-  }
-  
-  .menu {
+}
+
+.menu {
   list-style-type: none;
   padding: 0;
   display: none;
-  }
-  
-  .menu.open {
+}
+
+.menu.open {
   display: block;
-  }
-/* fin de barra desplegable */
-
-
-
-/* css del background */
-body {
-  margin: 0;
-  padding: 0;
-  background-image: url('jpeg.jpg'); /* Reemplaza 'ruta-de-tu-imagen.jpg' con la ruta de tu imagen de fondo */
-  background-size: cover; /* Para cubrir todo el área visible */
-  background-repeat: no-repeat; /* Para evitar repeticiones de la imagen de fondo */
-  background-attachment: fixed; /* Para que la imagen de fondo no se desplace al hacer scroll */
 }
 
-/* fin del css del background */
+/* Carrusel de imágenes, Cards de categorías y otras secciones: debes agregar estilos según sea necesario */
 
-body {
-  font-family: 'Avenir', sans-serif;
-  color: white;
-  /* Otros estilos de fuente como tamaño y espaciado se pueden agregar aquí */
-}
-
-section {
-  font-family: 'Avenir', sans-serif;
-  color:white;
-}
-
-.buttons {
-  
-}
-
-/* css de los cards de las categorias */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: sans-serif;
-}
-
-body {
-  background-color: #f0f0f0;
-  display: flex;
-  align-items: center;
-  justify-content: center; /* Añadido para centrar horizontalmente en la página */
-  min-height: 100vh;
-}
-
+/* Estilo de los cards de categorías */
 .card-container {
   display: flex;
   overflow-x: auto;
