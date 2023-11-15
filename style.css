@@ -1,93 +1,19 @@
-/* Reset de estilos */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  list-style: none;
-  text-decoration: none;
 }
 
-/* Estilo básico del cuerpo */
 body {
-  font-family: sans-serif;
-  text-transform: capitalize;
+  font-family: 'Avenir', sans-serif;
+  color: white;
   background-image: url('jpeg.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  color: white;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 100vh;
+  margin: 0;
 }
 
-/* Contenedor principal */
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
-/* Estilo del footer */
-.footer {
-  background-color: #242628;
-  padding: 80px 0;
-  color: #FFFFFF;
-}
-
-/* Estilo de las filas del footer */
-.footer-row {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-/* Estilo de los enlaces del footer */
-.footer-links {
-  width: 25%;
-  padding: 0 15px;
-}
-
-.footer-links h4 {
-  font-size: 20px;
-  margin-bottom: 25px;
-  font-weight: 500;
-  border-bottom: 2px solid #00C3FF;
-  padding-bottom: 10px;
-  display: inline-block;
-}
-
-.footer-links ul li a {
-  font-size: 18px;
-  color: #BBBBBB;
-  display: block;
-  margin-bottom: 15px;
-  transition: all .3s ease;
-}
-
-.footer-links ul li a:hover {
-  color: #FFFFFF;
-  padding-left: 6px;
-}
-
-/* Estilo de los íconos de redes sociales */
-.social-link a {
-  display: inline-block;
-  min-height: 40px;
-  width: 40px;
-  background-color: rgba(255, 255, 255, 0.2);
-  margin: 0 10px 10px 0;
-  text-align: center;
-  line-height: 40px;
-  border-radius: 50%;
-  color: #FFFFFF;
-  transition: all .5s ease;
-}
-
-.social-link a:hover {
-  background-color: #00C3FF;
-}
-
-/* Barra de navegación */
 header {
   background-color: #f5f5f5;
   padding: 10px 0;
@@ -117,39 +43,26 @@ nav a:hover {
   color: #ffcc00;
 }
 
-/* Menú desplegable */
-.menu-icon {
-  cursor: pointer;
-  display: block;
-  width: 30px;
-  height: 30px;
+.container {
+  display: flex;
+  align-items: center;
 }
 
-.bar {
-  width: 30px;
-  height: 4px;
-  background-color: #333;
-  margin: 6px 0;
+.image,
+.text {
+  flex: 1;
+  padding: 20px;
 }
 
-.menu {
-  list-style-type: none;
-  padding: 0;
-  display: none;
+.image {
+  text-align: right;
 }
 
-.menu.open {
-  display: block;
-}
-
-/* Carrusel de imágenes, Cards de categorías y otras secciones: debes agregar estilos según sea necesario */
-
-/* Estilo de los cards de categorías */
 .card-container {
   display: flex;
   overflow-x: auto;
   justify-content: center;
-  margin-top: 100px;
+  margin-top: 20px; /* Ajuste del margen superior */
 }
 
 .card {
@@ -191,4 +104,72 @@ nav a:hover {
   margin-top: 8px;
   font-size: 12px;
   color: #fff;
+}
+
+.footer {
+  background-color: #242628;
+  padding: 80px 0;
+}
+
+.footer-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; /* Ajuste de espacio entre elementos del pie de página */
+}
+
+.footer-links {
+  width: 25%;
+  padding: 0 15px;
+}
+
+.footer-links h4 {
+  font-size: 20px;
+  color: #FFFFFF;
+  margin-bottom: 25px;
+  font-weight: 500;
+  border-bottom: 2px solid #00C3FF;
+  padding-bottom: 10px;
+  display: inline-block;
+}
+
+.footer-links ul li a {
+  font-size: 18px;
+  text-decoration: none;
+  color: #BBBBBB;
+  display: block;
+  margin-bottom: 15px;
+  transition: all .3s ease;
+}
+
+.footer-links ul li a:hover {
+  color: #FFFFFF;
+  padding-left: 6px;
+}
+
+.social-link a {
+  display: inline-block;
+  min-height: 40px;
+  width: 40px;
+  background-color: rgba(255, 255, 255, 0.2);
+  margin: 0 10px 10px 0;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  color: #FFFFFF;
+  transition: all .5s ease;
+}
+
+.social-link a:hover {
+  background-color: #00C3FF;
+}
+
+@media (max-width: 991px) {
+  .footer-row {
+      text-align: center;
+  }
+
+  .footer-links {
+      width: 100%;
+      margin-bottom: 30px;
+  }
 }
