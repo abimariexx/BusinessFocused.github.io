@@ -208,3 +208,13 @@ nav a:hover {
 .menu.open {
   display: block;
 }
+
+body { 
+  font-family: 'Avenir', sans-serif; 
+  color: white;   
+  } 
+  
+  section { 
+  font-family: 'Avenir', sans-serif; 
+  color:white; 
+  } 
