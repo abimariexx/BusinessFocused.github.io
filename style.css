@@ -218,3 +218,16 @@ body {
   font-family: 'Avenir', sans-serif; 
   color:white; 
   } 
+
+
+
+section {
+  color: white;
+}
+
+section h2,
+section h3,
+section h4,
+section p {
+  color: white;
+}
